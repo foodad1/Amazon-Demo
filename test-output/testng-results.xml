@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-07-22T08:13:00Z" name="Suite1" finished-at="2020-07-22T08:13:33Z" duration-ms="33270">
+    <groups>
+    </groups>
+    <test started-at="2020-07-22T08:13:00Z" name="AmazonTest" finished-at="2020-07-22T08:13:33Z" duration-ms="33270">
+      <class name="roghwork.TestClass">
+        <test-method is-config="true" signature="baseBeforeMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:roghwork.TestClass@6973b51b]" started-at="2020-07-22T08:13:00Z" name="baseBeforeMethod" finished-at="2020-07-22T08:13:06Z" duration-ms="6500" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void roghwork.TestClass.Test() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@4d74c3ba]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseBeforeMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:roghwork.TestClass@6973b51b]" started-at="2020-07-22T08:13:06Z" name="beforeMethod" finished-at="2020-07-22T08:13:12Z" duration-ms="5603" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[url]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="Test()[pri:0, instance:roghwork.TestClass@6973b51b]" started-at="2020-07-22T08:13:12Z" name="Test" finished-at="2020-07-22T08:13:33Z" duration-ms="20849" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:roghwork.TestClass@6973b51b]" started-at="2020-07-22T08:13:33Z" name="afterMethod" finished-at="2020-07-22T08:13:33Z" duration-ms="301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- roghwork.TestClass -->
+    </test> <!-- AmazonTest -->
+  </suite> <!-- Suite1 -->
+</testng-results>

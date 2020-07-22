@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" thread-count="2" verbose="1" parallel="none">
+	<listeners>
+		<listener class-name="selenium.reports.TestListenerClass" />
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+	<parameter name="runRemote" value="false"/>
+	<test name="AmazonTest">
+		<parameter name="browserName" value="chrome" />
+		<parameter name="environmentType" value="url" />
+		<classes>
+			<class name="roghwork.TestClass">
+				 <methods>
+					<include name="Test"/>					
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
